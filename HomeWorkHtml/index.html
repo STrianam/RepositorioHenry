@@ -4,31 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel = "stylesheet" type="text/css" href="reset.css"/>
     <title>Mi primer sitio Web</title>
 </head>
 
 <body>
     <header>
-        <h1>
-            Digital Solutions
-        </h1>
-        <img src="https://img.freepik.com/vector-gratis/fondo-banner-onda-colorida-que-fluye-moderno_1035-19861.jpg">
+        <div id="tittle-container">
+            <div id = "titulo">
+                <h1>Digital Solutions</h1>
+            </div>
+        </div>
+        <div id = "imagen-header">
+            <div class="imagen">
+                <img src="./imagenes/1602186250-GettyImages-1150199386.jpg" class="imagen">
+            </div>
+        </div>
+        
     </header>
 
     <main>
-        <section>
-            <h3>Quienes somos</h3>
+        <section >
+            <div class = "sec">
+                <h3>Quienes somos</h3>
             <p>
                 Digital Solutions se destaca como una empresa dedicada a proporcionar soluciones integrales mediante
                 mentorías personalizadas, con el objetivo claro de impulsar significativamente las ventas de nuestros
                 clientes. Nos enorgullece ofrecer un enfoque único y adaptado a las necesidades específicas de cada
                 negocio, reconociendo que cada cliente es único y enfrenta desafíos particulares en su camino hacia el
                 éxito comercial.
-
             </p>
+            </div>
         </section>
-        </hr>
-        <sectiion>
+
+        <section>
             <h3>Misión</h3>
             <p> Nuestro equipo de mentores altamente calificados y experimentados trabaja mano a mano con nuestros
                 clientes para comprender a fondo sus metas, desafíos y oportunidades. A través de un análisis detallado,
@@ -36,24 +46,40 @@
                 tecnología y análisis de datos. Nos esforzamos por proporcionar orientación práctica y táctica que no
                 solo impulse las ventas actuales, sino que también siente las bases para un crecimiento sostenible a
                 largo plazo.
-
             </p>
-        </sectiion>
-        </hr>
 
-        <section>
-            <h3>Visión</h3>
-            <p> En Digital Solutions, creemos en la importancia de la colaboración estrecha con nuestros clientes,
+           
+        </section>
+
+        <div class = "cards-container">
+               
+                <div class = "cards">
+                    <img src="./imagenes/descarga (4).jpeg">
+                </div>
+        </div>
+       
+        <section>            
+                <h3>Visión</h3>
+            
+                <p> En Digital Solutions, creemos en la importancia de la colaboración estrecha con nuestros clientes,
                 creando así un ambiente de aprendizaje mutuo. Nuestro enfoque centrado en la relación nos permite
                 ajustar continuamente nuestras estrategias según evolucionan las necesidades y dinámicas del mercado.
                 Estamos comprometidos con el éxito de nuestros clientes y trabajamos incansablemente para asegurarnos de
-                que alcancen y superen sus metas comerciales.</p>
-        </section>
+                que alcancen y superen sus metas comerciales.
+            </p>
 
-        <secion>
-            
+
+            </div>
+        </section>
+        
+        <div class = "cards-container">
+            <div class = "cards">
+                <img src="./imagenes/descarga (5).jpeg">
+            </div>
+        </div>
+
+        <section>
             <h3>Beneficios</h3>
-            
             <ul>
                 <li> Mentorías Personalizadas: En Digital Solutions, ofrecemos mentorías adaptadas a las necesidades
                     específicas de tu negocio, brindando orientación precisa y estrategias personalizadas.</li>
@@ -64,20 +90,15 @@
                     experimentados, comprometidos a trabajar de cerca contigo para comprender tus metas y desafíos, y
                     proporcionar orientación práctica.</li>
             </ul>
-        </secion>
-
-       
-
+        </section>
     </main>
-    <footer>
+
+    <footer id="footer">
         <span>© 2024 Digital Solutions |</span>
-        <a href="contacto.html"><span> Contacto |</span></a></a>
+        <a href="contacto.html"><span> Contacto |</span></a>
         <span>Términos y condiciones | </span>
         <span> Política de privacidad </span>
     </footer>
-
-
 </body>
-
 
 </html>
